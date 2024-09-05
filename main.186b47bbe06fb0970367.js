@@ -20,7 +20,7 @@ var react = __webpack_require__(540);
 var bind = __webpack_require__(726);
 var bind_default = /*#__PURE__*/__webpack_require__.n(bind);
 ;// CONCATENATED MODULE: ./src/assets/images/hero.webp
-/* harmony default export */ const hero = (__webpack_require__.p + "static/hero.4a62f6d9154b17a283a55d287be2bdfe.webp");
+/* harmony default export */ const hero = (__webpack_require__.p + "static/hero.04ca142533f10f42e530254514d2e7e4.webp");
 ;// CONCATENATED MODULE: ./src/assets/images/hero.jpg
 /* harmony default export */ const images_hero = (__webpack_require__.p + "static/hero.248dc23325443020a8ff6da20716ab0a.jpg");
 ;// CONCATENATED MODULE: ./src/assets/images/trending.mp4
@@ -613,4 +613,4 @@ root.render((0,jsx_runtime.jsx)(src_App, {}));
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=main.a875e044a768bbbaf4b8.js.map
+//# sourceMappingURL=main.186b47bbe06fb0970367.js.map
