@@ -2,7 +2,7 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ 935:
+/***/ 967:
 /***/ ((__unused_webpack_module, __unused_webpack___webpack_exports__, __webpack_require__) => {
 
 
@@ -189,7 +189,19 @@ const Footer = () => {
 };
 /* harmony default export */ const Footer_Footer = (Footer);
 
+;// CONCATENATED MODULE: ./src/components/Fallback/Fallback.module.css
+// extracted by mini-css-extract-plugin
+/* harmony default export */ const Fallback_module = ({"fallback":"nRFci2Q_GcigqlaFZ5PU"});
+;// CONCATENATED MODULE: ./src/components/Fallback/Fallback.tsx
+
+
+const Fallback = () => {
+    return ((0,jsx_runtime.jsx)("div", Object.assign({ className: Fallback_module.fallback }, { children: (0,jsx_runtime.jsx)("p", { children: "Loading..." }) })));
+};
+/* harmony default export */ const Fallback_Fallback = (Fallback);
+
 ;// CONCATENATED MODULE: ./src/App.tsx
+
 
 
 
@@ -199,7 +211,7 @@ const Footer = () => {
 
 const Search = (0,react.lazy)(() => __webpack_require__.e(/* import() */ 526).then(__webpack_require__.bind(__webpack_require__, 526)));
 const App = () => {
-    return ((0,jsx_runtime.jsxs)(react_router_dom/* BrowserRouter */.Kd, Object.assign({ basename: '/perf-basecamp' }, { children: [(0,jsx_runtime.jsx)(NavBar_NavBar, {}), (0,jsx_runtime.jsx)(react.Suspense, Object.assign({ fallback: (0,jsx_runtime.jsx)("div", { children: "Loading..." }) }, { children: (0,jsx_runtime.jsxs)(react_router/* Routes */.BV, { children: [(0,jsx_runtime.jsx)(react_router/* Route */.qh, { path: "/", element: (0,jsx_runtime.jsx)(Home_Home, {}) }), (0,jsx_runtime.jsx)(react_router/* Route */.qh, { path: "/search", element: (0,jsx_runtime.jsx)(Search, {}) })] }) })), (0,jsx_runtime.jsx)(Footer_Footer, {})] })));
+    return ((0,jsx_runtime.jsxs)(react_router_dom/* BrowserRouter */.Kd, Object.assign({ basename: '/perf-basecamp' }, { children: [(0,jsx_runtime.jsx)(NavBar_NavBar, {}), (0,jsx_runtime.jsx)(react.Suspense, Object.assign({ fallback: (0,jsx_runtime.jsx)(Fallback_Fallback, {}) }, { children: (0,jsx_runtime.jsxs)(react_router/* Routes */.BV, { children: [(0,jsx_runtime.jsx)(react_router/* Route */.qh, { path: "/", element: (0,jsx_runtime.jsx)(Home_Home, {}) }), (0,jsx_runtime.jsx)(react_router/* Route */.qh, { path: "/search", element: (0,jsx_runtime.jsx)(Search, {}) })] }) })), (0,jsx_runtime.jsx)(Footer_Footer, {})] })));
 };
 /* harmony default export */ const src_App = (App);
 
@@ -608,9 +620,9 @@ root.render((0,jsx_runtime.jsx)(src_App, {}));
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, [340], () => (__webpack_require__(935)))
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, [340], () => (__webpack_require__(967)))
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=main.1c7ace160999460a6b61.js.map
+//# sourceMappingURL=main.7054b5e0c9649fe3cabf.js.map
