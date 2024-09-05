@@ -197,7 +197,7 @@ const Footer = () => {
 
 
 
-const Search = (0,react.lazy)(() => Promise.all(/* import() */[__webpack_require__.e(393), __webpack_require__.e(526)]).then(__webpack_require__.bind(__webpack_require__, 526)));
+const Search = (0,react.lazy)(() => __webpack_require__.e(/* import() */ 526).then(__webpack_require__.bind(__webpack_require__, 526)));
 const App = () => {
     return ((0,jsx_runtime.jsxs)(react_router_dom/* BrowserRouter */.Kd, Object.assign({ basename: '/perf-basecamp' }, { children: [(0,jsx_runtime.jsx)(NavBar_NavBar, {}), (0,jsx_runtime.jsx)(react.Suspense, Object.assign({ fallback: (0,jsx_runtime.jsx)("div", { children: "Loading..." }) }, { children: (0,jsx_runtime.jsxs)(react_router/* Routes */.BV, { children: [(0,jsx_runtime.jsx)(react_router/* Route */.qh, { path: "/", element: (0,jsx_runtime.jsx)(Home_Home, {}) }), (0,jsx_runtime.jsx)(react_router/* Route */.qh, { path: "/search", element: (0,jsx_runtime.jsx)(Search, {}) })] }) })), (0,jsx_runtime.jsx)(Footer_Footer, {})] })));
 };
@@ -317,7 +317,7 @@ root.render((0,jsx_runtime.jsx)(src_App, {}));
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.u = (chunkId) => {
 /******/ 			// return url for filenames based on template
-/******/ 			return "" + chunkId + "." + {"393":"47f43958bb770df43361","526":"55a5ba9941971a5517a7"}[chunkId] + ".js";
+/******/ 			return "" + chunkId + "." + "fb0f12b3f85cd6373bbe" + ".js";
 /******/ 		};
 /******/ 	})();
 /******/ 	
@@ -613,4 +613,4 @@ root.render((0,jsx_runtime.jsx)(src_App, {}));
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=main.186b47bbe06fb0970367.js.map
+//# sourceMappingURL=main.d7e425e4825931b37e29.js.map
