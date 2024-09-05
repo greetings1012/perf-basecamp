@@ -428,6 +428,7 @@ const useGifSearch = () => {
     const [gifList, setGifList] = (0,react.useState)([]);
     const [searchKeyword, setSearchKeyword] = (0,react.useState)('');
     const [errorMessage, setErrorMessage] = (0,react.useState)(null);
+    const trendingGifsRef = (0,react.useRef)(null);
     const updateSearchKeyword = (e) => {
         setSearchKeyword(e.target.value);
     };
@@ -459,8 +460,8 @@ const useGifSearch = () => {
     const loadMore = () => useGifSearch_awaiter(void 0, void 0, void 0, function* () {
         const nextPageIndex = currentPageIndex + 1;
         try {
-            const newGitList = yield gifAPIService.searchByKeyword(searchKeyword, nextPageIndex);
-            setGifList((prevGifList) => [...prevGifList, ...newGitList]);
+            const newGifList = yield gifAPIService.searchByKeyword(searchKeyword, nextPageIndex);
+            setGifList((prevGifList) => [...prevGifList, ...newGifList]);
             setCurrentPageIndex(nextPageIndex);
         }
         catch (error) {
@@ -469,10 +470,11 @@ const useGifSearch = () => {
     });
     (0,react.useEffect)(() => {
         const fetchTrending = () => useGifSearch_awaiter(void 0, void 0, void 0, function* () {
-            if (status !== SEARCH_STATUS.BEFORE_SEARCH)
+            if (status !== SEARCH_STATUS.BEFORE_SEARCH || trendingGifsRef.current)
                 return;
             try {
                 const gifs = yield gifAPIService.getTrending();
+                trendingGifsRef.current = gifs;
                 setGifList(gifs);
             }
             catch (error) {
@@ -480,7 +482,7 @@ const useGifSearch = () => {
             }
         });
         fetchTrending();
-    }, []);
+    }, [status]);
     return {
         status,
         searchKeyword,
@@ -677,4 +679,4 @@ const Search = () => {
 /***/ })
 
 }]);
-//# sourceMappingURL=526.fb0f12b3f85cd6373bbe.js.map
+//# sourceMappingURL=526.4800cb7e2385668c0334.js.map
