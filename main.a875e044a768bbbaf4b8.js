@@ -199,7 +199,7 @@ const Footer = () => {
 
 const Search = (0,react.lazy)(() => Promise.all(/* import() */[__webpack_require__.e(393), __webpack_require__.e(526)]).then(__webpack_require__.bind(__webpack_require__, 526)));
 const App = () => {
-    return ((0,jsx_runtime.jsxs)(react_router_dom/* BrowserRouter */.Kd, Object.assign({ basename: '/perf-basecamp' }, { children: [(0,jsx_runtime.jsx)(NavBar_NavBar, {}), (0,jsx_runtime.jsx)(react_router/* Routes */.BV, { children: (0,jsx_runtime.jsxs)(react.Suspense, Object.assign({ fallback: (0,jsx_runtime.jsx)("div", { children: "Loading..." }) }, { children: [(0,jsx_runtime.jsx)(react_router/* Route */.qh, { path: "/", element: (0,jsx_runtime.jsx)(Home_Home, {}) }), (0,jsx_runtime.jsx)(react_router/* Route */.qh, { path: "/search", element: (0,jsx_runtime.jsx)(Search, {}) })] })) }), (0,jsx_runtime.jsx)(Footer_Footer, {})] })));
+    return ((0,jsx_runtime.jsxs)(react_router_dom/* BrowserRouter */.Kd, Object.assign({ basename: '/perf-basecamp' }, { children: [(0,jsx_runtime.jsx)(NavBar_NavBar, {}), (0,jsx_runtime.jsx)(react.Suspense, Object.assign({ fallback: (0,jsx_runtime.jsx)("div", { children: "Loading..." }) }, { children: (0,jsx_runtime.jsxs)(react_router/* Routes */.BV, { children: [(0,jsx_runtime.jsx)(react_router/* Route */.qh, { path: "/", element: (0,jsx_runtime.jsx)(Home_Home, {}) }), (0,jsx_runtime.jsx)(react_router/* Route */.qh, { path: "/search", element: (0,jsx_runtime.jsx)(Search, {}) })] }) })), (0,jsx_runtime.jsx)(Footer_Footer, {})] })));
 };
 /* harmony default export */ const src_App = (App);
 
@@ -613,4 +613,4 @@ root.render((0,jsx_runtime.jsx)(src_App, {}));
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=main.cbc12f781e4a64caa337.js.map
+//# sourceMappingURL=main.a875e044a768bbbaf4b8.js.map
